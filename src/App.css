@@ -2,37 +2,89 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: rgb(254, 211, 133);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.socialMediaLogo {
+  height: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.link{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.indexMain{
+  display: flex;
+  justify-content: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.footerLogo{
+  height: 100px;
+  display: flex;
+}
+
+.headerSocials{
+  margin: 10px;
+}
+
+.musicButtons{
+  display: flex;;
+}
+
+.socialMediaLogo{
+  margin: 10px;
+}
+
+.musicPage{
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.musicTitle{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mediaLogosBar{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mediaLogo{
+  height: 80px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.embededYouTubeVideo{
+  display: flex;
+  justify-content: center;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
