@@ -9,6 +9,7 @@ import Contact from './pages/contact';
 import Gigs from './pages/gigs';
 import Merch from './pages/merch';
 import Music from './pages/music';
+import Gallery from './pages/gallery';
 
 function App() {
   return (
@@ -17,12 +18,13 @@ function App() {
         <Routes>
           <Route path="/" element={<IndexPage/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/music" element={<Music/>}/>
           <Route path="/gigs" element={<Gigs/>}/>
           <Route path="/merch" element={<Merch/>}/>
           <Route path="/contact" element={<Contact/>}/>
         </Routes>
-        <footer>
+        <footer clasName="footer">
             <a  href="https://www.facebook.com/RUFFTRADE.reggae" target="_blank" rel="noreferrer">
                 <img className="socialMediaLogo" src={FacebookLogo} alt="Link to Ruff Trade Facebook page" />
             </a>

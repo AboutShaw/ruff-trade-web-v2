@@ -1,21 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
 .App {
   text-align: center;
 }
 
 body{
   background-color: rgb(254, 211, 133);
+  font-family: 'Saira Stencil One';
+  font-size: 20px;
+  color: black;
 }
 
 .socialMediaLogo {
   height: 50px;
 }
 
-.header {
+.headerUpper{
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(237, 30, 36);
+}
+
+.headerMiddle {
   display: flex;
   justify-content: center;
-  margin: 50px;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(247, 238, 40);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.headerLower{
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(76, 185, 70);
 }
 
 .link{
@@ -26,8 +62,30 @@ body{
 .indexMain{
   display: flex;
   justify-content: center;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.aboutMain{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30%;
+  margin-right: 30%;
+  align-self: center;
+  text-align: center;
+}
+
+.aboutH1{
+  align-self: center;
+}
+
+.aboutImg{
+  align-self: center;
+  width: 100%;
 }
 
 .footerLogo{
@@ -50,6 +108,9 @@ body{
 .musicPage{
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .musicTitle{
@@ -72,6 +133,9 @@ body{
 .embededYouTubeVideo{
   display: flex;
   justify-content: center;
+  border: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .navBar{
@@ -80,11 +144,26 @@ body{
   padding: 20px;
 }
 
+.galleryMain{
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.instaScroller{
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px;
-  padding-left: 20%;
-  padding-right: 20%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
 }

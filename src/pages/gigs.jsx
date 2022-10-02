@@ -1,13 +1,11 @@
 import * as React from "react";
 import Header from "../components/Header";
-import Navbar from "../components/Navbar";
 
 const Gigs = () => {
   return (
     <div>
       <main >
       <Header/>
-      <Navbar/>
     </main>
       <div>
         <h3>Month 1</h3>
