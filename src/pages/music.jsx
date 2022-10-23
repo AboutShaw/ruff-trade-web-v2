@@ -15,14 +15,6 @@ const Music = () => {
         <div className="musicPage" >
           <h2 className="musicTitle">Listen and Watch Us Here</h2>
           <div className="mediaLogosBar">
-            <a  href="https://open.spotify.com/artist/73N8KicBZN5xQk4aSIz380"
-                target="_blank"
-                rel="noreferrer">
-                <img
-                className="mediaLogo"
-                src={SpotifyLogo}
-                alt="Link to Ruff Trade Spotifys page" />
-            </a>
             <a  href="https://music.apple.com/gb/artist/ruff-trade/1439852245"
                 target="_blank"
                 rel="noreferrer">
